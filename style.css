@@ -76,6 +76,7 @@ body {
     border-radius: 5px;
     text-align: center;
     padding: 10px;
+    margin-bottom: 30px;
     transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
