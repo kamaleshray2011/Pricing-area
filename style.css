@@ -1,0 +1,189 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0 solid;
+    text-decoration: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+    outline: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+p:last-child {
+    margin-bottom: 0
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Pricing area */
+
+.wrapper h1 {
+    text-align: center;
+    color: goldenrod;
+    padding: 30px 0;
+}
+
+.wrapper .pricing-area {
+    margin-bottom: 20px;
+}
+
+.wrapper .pricing-area .single-area {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+}
+
+.wrapper .pricing-area .single-area:hover {
+    box-shadow: 2px 1px 5px 1px #ededed;
+}
+
+.wrapper .pricing-area .single-area .pricing-head {
+    background: #FFBB3D;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.wrapper .single-area.two .pricing-head {
+    background: #FF7D20;
+}
+
+.wrapper .pricing-area .single-area .pricing-head .str {
+    font-size: 20px;
+}
+
+.wrapper .pricing-area .single-area .pricing-head .dollar {
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.wrapper .pricing-area .single-area .pricing-head .dollar>span {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.wrapper .pricing-area .single-area .pricing-body {
+    margin-top: 30px;
+}
+
+.wrapper .pricing-area .single-area.three .pricing-head .dollar {
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.wrapper .pricing-area .single-area .pricing-body ul li {
+    list-style: none;
+    border-bottom: 1px dashed #d4d4d4;
+    padding: 10px;
+    font-size: 16px;
+    width: 95%;
+    margin: 0 10px;
+}
+
+.wrapper .pricing-area .single-area .btn {
+    background: #FFBB3D;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+}
+
+.wrapper .pricing-area .single-area .btn:hover {
+    color: rgb(136, 136, 136);
+    background: rgb(219, 118, 3);
+}
+
+.wrapper .pricing-area .single-area.three .btn {
+    margin-top: 100px;
+}
+
+
+/* Pricing button area */
+
+.pricing-button {
+    text-align: center;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.pricing-button p.para {
+    font-size: 14px;
+    padding-top: 35px;
+}
+
+.pricing-button .btn {
+    color: #fff;
+    text-transform: uppercase;
+    background: #FFBB3D;
+    padding: 5px 90px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+}
+
+.pricing-button .btn:hover {
+    color: rgb(136, 136, 136);
+    background: rgb(219, 118, 3);
+}
