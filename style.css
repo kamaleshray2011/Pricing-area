@@ -173,6 +173,7 @@ body {
 
 .pricing-button .btn {
     color: #fff;
+    background-image: linear-gradient(90deg, #fd7d13, #e52e71);
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;
